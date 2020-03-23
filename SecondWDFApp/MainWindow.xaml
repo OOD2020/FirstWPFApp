@@ -1,0 +1,14 @@
+﻿<Window x:Class="SecondWDFApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SecondWDFApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnRoll" Content="Roll" HorizontalAlignment="Left" Margin="359,150,0,0" VerticalAlignment="Top" Width="166" Click="BtnRoll_Click" FontSize="16" FontWeight="Bold" FontStyle="Italic" Background="#FFE440B0"/>
+        <TextBlock x:Name="tblkDice" HorizontalAlignment="Left" Margin="359,180,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Height="73" Width="166" FontSize="48" Cursor="" TextAlignment="Center"/>
+
+    </Grid>
+</Window>
